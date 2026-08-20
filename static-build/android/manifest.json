@@ -1,0 +1,97 @@
+{
+  "id": "2b7657f2-768c-4cd3-9b20-6d5d06c7f45e",
+  "createdAt": "2026-08-20T19:28:33.859Z",
+  "runtimeVersion": "exposdk:54.0.0",
+  "launchAsset": {
+    "key": "bundle-1787254113859-250",
+    "contentType": "application/javascript",
+    "url": "https://8311e430-4ec1-4443-ad24-f18356b753f9-00-2ddp4ew2sds56.reed.replit.dev/1787254113859-250/_expo/static/js/android/bundle.js"
+  },
+  "assets": [],
+  "metadata": {},
+  "extra": {
+    "eas": {},
+    "expoClient": {
+      "name": "TelGuard Sentinel",
+      "slug": "telguard-sentinel",
+      "version": "1.0.0",
+      "orientation": "portrait",
+      "icon": "./assets/images/icon.png",
+      "scheme": "telguard-sentinel",
+      "userInterfaceStyle": "automatic",
+      "newArchEnabled": true,
+      "splash": {
+        "image": "./assets/images/icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff",
+        "imageUrl": "http://127.0.0.1:8081/assets/./assets/images/icon.png"
+      },
+      "ios": {
+        "supportsTablet": false,
+        "infoPlist": {
+          "NSLocationWhenInUseUsageDescription": "Sentinel uses coarse location context to identify unusual telecom events while you travel."
+        }
+      },
+      "android": {},
+      "web": {
+        "favicon": "./assets/images/icon.png"
+      },
+      "plugins": [
+        [
+          "expo-router",
+          {
+            "origin": "https://replit.com/"
+          }
+        ],
+        "expo-font",
+        "expo-web-browser"
+      ],
+      "experiments": {
+        "typedRoutes": true,
+        "reactCompiler": true
+      },
+      "_internal": {
+        "isDebug": false,
+        "projectRoot": "/home/runner/workspace/artifacts/telguard-sentinel",
+        "dynamicConfigPath": {},
+        "staticConfigPath": "/home/runner/workspace/artifacts/telguard-sentinel/app.json",
+        "packageJsonPath": "/home/runner/workspace/artifacts/telguard-sentinel/package.json",
+        "pluginHistory": {
+          "expo-font": {
+            "name": "expo-font",
+            "version": "14.0.12"
+          },
+          "expo-web-browser": {
+            "name": "expo-web-browser",
+            "version": "15.0.11"
+          }
+        }
+      },
+      "sdkVersion": "54.0.0",
+      "platforms": [
+        "ios",
+        "android",
+        "web"
+      ],
+      "extra": {
+        "router": {
+          "origin": "https://replit.com/"
+        }
+      },
+      "iconUrl": "http://127.0.0.1:8081/assets/./assets/images/icon.png",
+      "hostUri": "8311e430-4ec1-4443-ad24-f18356b753f9-00-2ddp4ew2sds56.reed.replit.dev/android"
+    },
+    "expoGo": {
+      "debuggerHost": "8311e430-4ec1-4443-ad24-f18356b753f9-00-2ddp4ew2sds56.reed.replit.dev/android",
+      "developer": {
+        "tool": "expo-cli",
+        "projectRoot": "/home/runner/workspace/artifacts/telguard-sentinel"
+      },
+      "packagerOpts": {
+        "dev": false
+      },
+      "mainModuleName": "node_modules/.pnpm/expo-router@6.0.24_@types+react-dom@19.1.11_@types+react@19.1.17__@types+react@19.1.17__a8963d9f475924884ad807606c930713/node_modules/expo-router/entry"
+    },
+    "scopeKey": "@anonymous/telguard-sentinel-69fca65d-cb6c-4492-a658-c7bb8694d604"
+  }
+}
