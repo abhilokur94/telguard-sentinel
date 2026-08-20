@@ -1,0 +1,24 @@
+kind = "mobile"
+previewPath = "/"
+title = "TelGuard Sentinel"
+description = "A native iOS security companion that detects likely SIM hijacks, protects calls and messages from telecom scams, and guides users through rapid account recovery."
+version = "1.0.0"
+id = "artifacts/telguard-sentinel"
+router = "expo-domain"
+
+[[services]]
+name = "expo"
+ensurePreviewReachable = "/status"
+paths = [ "/" ]
+localPort = 23237
+
+[services.development]
+run = "pnpm --filter @workspace/telguard-sentinel run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/telguard-sentinel", "run", "build" ]
+run = [ "pnpm", "--filter", "@workspace/telguard-sentinel", "run", "serve" ]
+
+[services.env]
+PORT = "23237"
+BASE_PATH = "/"
